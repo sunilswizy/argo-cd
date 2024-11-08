@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: sunil1912/nginx:2.0
+          image: sunil1912/nginx:2.1
           ports:
             - containerPort: 80
