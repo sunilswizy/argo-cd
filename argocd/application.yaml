@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/sunilswizy/argo-cd.git
     targetRevision: HEAD
-    path: app
+    path: environment/staging/apps
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
